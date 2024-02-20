@@ -1,0 +1,112 @@
+{
+  "uid" : "888be1f56e642aa3",
+  "name" : "Parametrized 2#8",
+  "fullName" : "TestParametrizedDemo2/ParametrizedTestDemo2/Tests/TestParameterized2/Parametrized_2#8",
+  "historyId" : "5148d6479e7b64895ba9468df92db861",
+  "time" : {
+    "start" : 1708440054114,
+    "stop" : 1708440054114,
+    "duration" : 0
+  },
+  "description" : "This test checks that 1 Equal 8",
+  "descriptionHtml" : "<p>This test checks that 1 Equal 8</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test checks that 1 Equal 8",
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "Step 8",
+      "time" : {
+        "start" : 1708440054114,
+        "stop" : 1708440054114,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "REQUIRE: Less",
+        "time" : {
+          "start" : 1708440054114,
+          "stop" : 1708440054114,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "First Element",
+          "value" : "1"
+        }, {
+          "name" : "Second Element",
+          "value" : "8"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestParametrizedDemo2/ParametrizedTestDemo2/Tests/TestParameterized2/Parametrized_2#8"
+  }, {
+    "name" : "suite",
+    "value" : "Parent Test"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ParametrizedTestDemo2"
+  }, {
+    "name" : "feature",
+    "value" : "Parametrized"
+  }, {
+    "name" : "tag",
+    "value" : "Parametrized"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Parametrized" ]
+  },
+  "source" : "888be1f56e642aa3.json",
+  "parameterValues" : [ ]
+}

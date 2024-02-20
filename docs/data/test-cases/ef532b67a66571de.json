@@ -1,0 +1,104 @@
+{
+  "uid" : "ef532b67a66571de",
+  "name" : "This test failed by assert with message",
+  "fullName" : "TestFails/FailsDemoSuite/TestAssertionFail",
+  "historyId" : "58c0e0f63f2876edcee8b3e505b7c330",
+  "time" : {
+    "start" : 1708440054118,
+    "stop" : 1708440054119,
+    "duration" : 1
+  },
+  "description" : "\n\t\tThis Test will be failed with assert Error.\n\t\tError text: Assertion Failed",
+  "descriptionHtml" : "<pre><code>\tThis Test will be failed with assert Error.\n\tError text: Assertion Failed\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "\tAssertion Failed",
+  "statusTrace" : "\n\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t            \t\t\t\thelper.go:32\n\t            \t\t\t\tfails_test.go:26\n\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 2\n\tTest:       \tThis test failed by assert with message\n\tMessages:   \tAssertion Failed\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\t\tThis Test will be failed with assert Error.\n\t\tError text: Assertion Failed",
+    "status" : "failed",
+    "statusMessage" : "\tAssertion Failed",
+    "statusTrace" : "\n\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t            \t\t\t\thelper.go:32\n\t            \t\t\t\tfails_test.go:26\n\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 2\n\tTest:       \tThis test failed by assert with message\n\tMessages:   \tAssertion Failed\n",
+    "steps" : [ {
+      "name" : "REQUIRE: Assertion Failed",
+      "time" : {
+        "start" : 1708440054119,
+        "stop" : 1708440054119,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Expected",
+        "value" : "1"
+      }, {
+        "name" : "Actual",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestFails/FailsDemoSuite/TestAssertionFail"
+  }, {
+    "name" : "suite",
+    "value" : "FailsDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Failures"
+  }, {
+    "name" : "tag",
+    "value" : "fail"
+  }, {
+    "name" : "tag",
+    "value" : "assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "fail", "assertions" ]
+  },
+  "source" : "ef532b67a66571de.json",
+  "parameterValues" : [ ]
+}

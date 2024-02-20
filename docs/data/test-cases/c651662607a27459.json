@@ -1,0 +1,75 @@
+{
+  "uid" : "c651662607a27459",
+  "name" : "Test contains links",
+  "fullName" : "TestLinks/LinkDemoSuite/TestLinks",
+  "historyId" : "378be80a3a130d2774a701d50cce0eef",
+  "time" : {
+    "start" : 1708440054116,
+    "stop" : 1708440054116,
+    "duration" : 0
+  },
+  "description" : "\n\t\tThis test contains link with ISSUE, TEST CASE and LINK.\n\t\t\tTest case link: https://tour.golang.org/welcome/1\n\t\t\tIssue link:     https://pkg.go.dev/github.com/stretchr/testify\n\t\t\tLink link:      https://www.makeuseof.com/tag/8-purrfect-cat-websites/",
+  "descriptionHtml" : "<pre><code>\tThis test contains link with ISSUE, TEST CASE and LINK.\n\t\tTest case link: https://tour.golang.org/welcome/1\n\t\tIssue link:     https://pkg.go.dev/github.com/stretchr/testify\n\t\tLink link:      https://www.makeuseof.com/tag/8-purrfect-cat-websites/\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestLinks/LinkDemoSuite/TestLinks"
+  }, {
+    "name" : "suite",
+    "value" : "LinkDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Links"
+  }, {
+    "name" : "tag",
+    "value" : "Links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TestCase[1]",
+    "url" : "https://tour.golang.org/welcome/1",
+    "type" : "test_case"
+  }, {
+    "name" : "Issue[github.com/stretchr/testify]",
+    "url" : "https://pkg.go.dev/github.com/stretchr/testify",
+    "type" : "issue"
+  }, {
+    "name" : "Demo Link",
+    "url" : "https://www.makeuseof.com/tag/8-purrfect-cat-websites/",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Links" ]
+  },
+  "source" : "c651662607a27459.json",
+  "parameterValues" : [ ]
+}

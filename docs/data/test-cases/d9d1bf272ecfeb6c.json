@@ -1,0 +1,95 @@
+{
+  "uid" : "d9d1bf272ecfeb6c",
+  "name" : "Parametrized 2#4",
+  "fullName" : "TestParametrizedDemo2/ParametrizedTestDemo2/Tests/TestParameterized2/Parametrized_2#4",
+  "historyId" : "21a76a78a315bdd38221d5350672e6d7",
+  "time" : {
+    "start" : 1708440054114,
+    "stop" : 1708440054114,
+    "duration" : 0
+  },
+  "description" : "This test checks that 1 Equal 4",
+  "descriptionHtml" : "<p>This test checks that 1 Equal 4</p>\n",
+  "status" : "broken",
+  "statusMessage" : "test panicked: WHOOPS\ngoroutine 106 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debu",
+  "statusTrace" : "test panicked: WHOOPS\ngoroutine 106 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:22 +0xb4\npanic({0x102b0be60?, 0x102b74698?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*ParametrizedTestDemo2).TestParameterized2.func2.1({0x149ab52f0?, 0x140000f7260?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/parametrized_test.go:90 +0xa4\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x14000101500, {0x1400040c5aa?, 0x6?}, 0x1400040c5f0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*ParametrizedTestDemo2).TestParameterized2.func2({0x102b7c9e0, 0x14000101500})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/parametrized_test.go:88 +0x18c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).Run.func1(0x140004864e0)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/common.go:335 +0x94c\ntesting.tRunner(0x140004864e0, 0x140000d8c80)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 90\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test checks that 1 Equal 4",
+    "status" : "broken",
+    "statusMessage" : "test panicked: WHOOPS\ngoroutine 106 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debu",
+    "statusTrace" : "test panicked: WHOOPS\ngoroutine 106 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:22 +0xb4\npanic({0x102b0be60?, 0x102b74698?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*ParametrizedTestDemo2).TestParameterized2.func2.1({0x149ab52f0?, 0x140000f7260?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/parametrized_test.go:90 +0xa4\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x14000101500, {0x1400040c5aa?, 0x6?}, 0x1400040c5f0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*ParametrizedTestDemo2).TestParameterized2.func2({0x102b7c9e0, 0x14000101500})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/parametrized_test.go:88 +0x18c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).Run.func1(0x140004864e0)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/common.go:335 +0x94c\ntesting.tRunner(0x140004864e0, 0x140000d8c80)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 90\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+    "steps" : [ {
+      "name" : "Step 4",
+      "time" : {
+        "start" : 1708440054114,
+        "stop" : 1708440054114,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestParametrizedDemo2/ParametrizedTestDemo2/Tests/TestParameterized2/Parametrized_2#4"
+  }, {
+    "name" : "suite",
+    "value" : "Parent Test"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ParametrizedTestDemo2"
+  }, {
+    "name" : "feature",
+    "value" : "Parametrized"
+  }, {
+    "name" : "tag",
+    "value" : "Parametrized"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Parametrized" ]
+  },
+  "source" : "d9d1bf272ecfeb6c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "60a08468c1701191",
+  "name" : "Labels Demo Example 4",
+  "fullName" : "TestLabels/LabelsDemoSuite/TestLabelsExample4",
+  "historyId" : "293bf128f7a4d4c9b72469b785c4b88c",
+  "time" : {
+    "start" : 1708440054117,
+    "stop" : 1708440054117,
+    "duration" : 0
+  },
+  "description" : "\n\t\tThis Test will have all labels from SetupTest function\n\t\tUnique labels:\n\t\t\tID = \"example4\"\n\t\t\tSeverity = \"minor\"\n\t\t\tUnique tag = \"Example4\"",
+  "descriptionHtml" : "<pre><code>\tThis Test will have all labels from SetupTest function\n\tUnique labels:\n\t\tID = &quot;example4&quot;\n\t\tSeverity = &quot;minor&quot;\n\t\tUnique tag = &quot;Example4&quot;\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestLabels/LabelsDemoSuite/TestLabelsExample4"
+  }, {
+    "name" : "suite",
+    "value" : "LabelsDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Story Label"
+  }, {
+    "name" : "owner",
+    "value" : "John Doe"
+  }, {
+    "name" : "lead",
+    "value" : "John Doe's Boss"
+  }, {
+    "name" : "tag",
+    "value" : "EachTestTag"
+  }, {
+    "name" : "as_id",
+    "value" : "example4"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "Example4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "John Doe",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Example4", "EachTestTag" ]
+  },
+  "source" : "60a08468c1701191.json",
+  "parameterValues" : [ ]
+}

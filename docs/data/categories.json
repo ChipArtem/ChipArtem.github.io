@@ -1,0 +1,704 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 4\n",
+      "children" : [ {
+        "name" : "Parametrized #4",
+        "uid" : "95eae7fc00d4ddcd",
+        "parentUid" : "94a804bbbd49e270ddb3cb5b1b990472",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #4",
+        "uid" : "b3425be47af8219f",
+        "parentUid" : "94a804bbbd49e270ddb3cb5b1b990472",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054112,
+          "stop" : 1708440054112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94a804bbbd49e270ddb3cb5b1b990472"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 0\n",
+      "children" : [ {
+        "name" : "Parametrized #0",
+        "uid" : "6572b6e907e25858",
+        "parentUid" : "20478c9c5e17ada50180c7bb2532026a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #0",
+        "uid" : "9ab24f681c8de0de",
+        "parentUid" : "20478c9c5e17ada50180c7bb2532026a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054112,
+          "stop" : 1708440054112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20478c9c5e17ada50180c7bb2532026a"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 8\n",
+      "children" : [ {
+        "name" : "Parametrized #8",
+        "uid" : "8ec61f65498b90ff",
+        "parentUid" : "a791a19bf46cd5af907c1efa834f4335",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #8",
+        "uid" : "335c1076bb86c7d7",
+        "parentUid" : "a791a19bf46cd5af907c1efa834f4335",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a791a19bf46cd5af907c1efa834f4335"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 6\n",
+      "children" : [ {
+        "name" : "Parametrized #6",
+        "uid" : "8b9c8a47b9647b16",
+        "parentUid" : "6f6914ffab9f8adb2d76aab4882ad189",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #6",
+        "uid" : "40a9b243389e7672",
+        "parentUid" : "6f6914ffab9f8adb2d76aab4882ad189",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f6914ffab9f8adb2d76aab4882ad189"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 7\n",
+      "children" : [ {
+        "name" : "Parametrized #7",
+        "uid" : "10bcf58a1e306114",
+        "parentUid" : "810398dd1eb93d02b69e9bccd5ab5075",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #7",
+        "uid" : "c7d1bec96cd83516",
+        "parentUid" : "810398dd1eb93d02b69e9bccd5ab5075",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "810398dd1eb93d02b69e9bccd5ab5075"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 9\n",
+      "children" : [ {
+        "name" : "Parametrized #9",
+        "uid" : "238727cfe7841e94",
+        "parentUid" : "6788329498379f5d70f619f01372af20",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #9",
+        "uid" : "9a8a284999561be6",
+        "parentUid" : "6788329498379f5d70f619f01372af20",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6788329498379f5d70f619f01372af20"
+    }, {
+      "name" : "\tError:      \t\"1\" is not less than \"0\"\n",
+      "children" : [ {
+        "name" : "Parametrized 2#0",
+        "uid" : "8e66d0ba44f30475",
+        "parentUid" : "d9879fb04c50b215856afdc2a65fc14d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized 2#0",
+        "uid" : "aade2aa68630ecc",
+        "parentUid" : "d9879fb04c50b215856afdc2a65fc14d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9879fb04c50b215856afdc2a65fc14d"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 2\n",
+      "children" : [ {
+        "name" : "Parametrized #2",
+        "uid" : "ca8196e1d7e3efb4",
+        "parentUid" : "fbd31e01e725a03a335566293a950700",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #2",
+        "uid" : "3d48601e0b43c6f",
+        "parentUid" : "fbd31e01e725a03a335566293a950700",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054112,
+          "stop" : 1708440054112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test failed by assert without message",
+        "uid" : "5cdf4cdc4ca4b867",
+        "parentUid" : "fbd31e01e725a03a335566293a950700",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test failed by assert without message",
+        "uid" : "9183b61486b7f065",
+        "parentUid" : "fbd31e01e725a03a335566293a950700",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbd31e01e725a03a335566293a950700"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 3\n",
+      "children" : [ {
+        "name" : "Parametrized #3",
+        "uid" : "48355e38dd0029ed",
+        "parentUid" : "23f012744369b7b91bd30dbbe3f437f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #3",
+        "uid" : "1e9702f304298232",
+        "parentUid" : "23f012744369b7b91bd30dbbe3f437f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054112,
+          "stop" : 1708440054112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23f012744369b7b91bd30dbbe3f437f2"
+    }, {
+      "name" : "\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 5\n",
+      "children" : [ {
+        "name" : "Parametrized #5",
+        "uid" : "96b4eeb62f2323ff",
+        "parentUid" : "413b8bfb051ba72a9b02fd40d7fb739c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized #5",
+        "uid" : "68b7388d658fbc67",
+        "parentUid" : "413b8bfb051ba72a9b02fd40d7fb739c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054112,
+          "stop" : 1708440054112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "413b8bfb051ba72a9b02fd40d7fb739c"
+    }, {
+      "name" : "\tError:      \t\"1\" is not less than \"1\"\n",
+      "children" : [ {
+        "name" : "Parametrized 2#1",
+        "uid" : "edcfa09b74ee0a7e",
+        "parentUid" : "e5244974f88a46bf30d9aa1b347af9fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054110,
+          "stop" : 1708440054111,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Parametrized 2#1",
+        "uid" : "cdd4cdcdb7e1d2cb",
+        "parentUid" : "e5244974f88a46bf30d9aa1b347af9fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054113,
+          "stop" : 1708440054113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5244974f88a46bf30d9aa1b347af9fb"
+    }, {
+      "name" : "\tAssertion Failed",
+      "children" : [ {
+        "name" : "This test failed by assert with message",
+        "uid" : "fa0e8ae8ece17ca9",
+        "parentUid" : "f5df0e7ad012abdfc67f305be0499c7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test failed by assert with message",
+        "uid" : "ef532b67a66571de",
+        "parentUid" : "f5df0e7ad012abdfc67f305be0499c7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054118,
+          "stop" : 1708440054119,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5df0e7ad012abdfc67f305be0499c7c"
+    }, {
+      "name" : "\tFailed inside step",
+      "children" : [ {
+        "name" : "This test failed by assert with inner step",
+        "uid" : "c847ab67b7781dce",
+        "parentUid" : "40a574478ad46446879951c679e4dc00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test failed by assert with inner step",
+        "uid" : "f4f5798826d05b87",
+        "parentUid" : "40a574478ad46446879951c679e4dc00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40a574478ad46446879951c679e4dc00"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "test panicked: WHOOPS\ngoroutine 106 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debu",
+      "children" : [ {
+        "name" : "Parametrized 2#4",
+        "uid" : "d9d1bf272ecfeb6c",
+        "parentUid" : "c9e194a141c721aeab162e944e6ea6b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054114,
+          "stop" : 1708440054114,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9e194a141c721aeab162e944e6ea6b9"
+    }, {
+      "name" : "Test fails as FailNow()",
+      "children" : [ {
+        "name" : "This test fails immediately with broken status and message inside step",
+        "uid" : "4b36b87426502206",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054118,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status and message",
+        "uid" : "c57c9ba969a84d2b",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status and message inside step",
+        "uid" : "8f549f23636c552b",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status and message inside inner step",
+        "uid" : "dcf36d63e25a7dc",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status and message",
+        "uid" : "530646e35b5fffcb",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status and message inside inner step",
+        "uid" : "e578f9fa741976c5",
+        "parentUid" : "e624f57941330e15f3dfbc33c4a6b29f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e624f57941330e15f3dfbc33c4a6b29f"
+    }, {
+      "name" : "",
+      "children" : [ {
+        "name" : "This test fails immediately with broken status",
+        "uid" : "e1019c95926555cc",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails with broken status inside step",
+        "uid" : "c92add0cd29a80f6",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails with broken status",
+        "uid" : "ecfd01f7ecbb3142",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status inside step",
+        "uid" : "ec859247dc9035e6",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status",
+        "uid" : "88c21db639ea05bc",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails with broken status",
+        "uid" : "85d4c5a55083c5d0",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails immediately with broken status inside step",
+        "uid" : "93bb8a7ce064ba60",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This test fails with broken status inside step",
+        "uid" : "65618e4fede45ff2",
+        "parentUid" : "bda2d1d522cd5c6d3b119ea9eba8bd02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bda2d1d522cd5c6d3b119ea9eba8bd02"
+    }, {
+      "name" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 250 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1.2()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:182 +0x68\npanic({0x102b53d00?, 0x140001a89d8?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanic(0x1400020f638?, {0x102b7c9e0, 0x14000431740})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:82 +0x114\nreflect.Value.call({0x1400031c000?, 0x14000058528?, 0x140002bad58?}, {0x102a59fe6, 0x4}, {0x140002a15c0, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058528?, 0x10?}, {0x140002a15c0?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x14000431740?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4ea0)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4ea0, 0x140003b1220)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+      "children" : [ {
+        "name" : "This test panicked",
+        "uid" : "a86fecdc476576e5",
+        "parentUid" : "448b833888d1aa684dfef31ecc885d2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054118,
+          "stop" : 1708440054118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "448b833888d1aa684dfef31ecc885d2e"
+    }, {
+      "name" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 234 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1.2()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:182 +0x68\npanic({0x102b53d00?, 0x140000168d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanic(0x14000261638?, {0x102b7c9e0, 0x14000340ba0})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:82 +0x114\nreflect.Value.call({0x1400031c000?, 0x140003284c8?, 0x140004dfd58?}, {0x102a59fe6, 0x4}, {0x14000538c60, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x140003284c8?, 0x10?}, {0x14000538c60?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x14000340ba0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140002ee1a0)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140002ee1a0, 0x1400031dea0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 16\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+      "children" : [ {
+        "name" : "This test panicked",
+        "uid" : "5461f8aa8f828cce",
+        "parentUid" : "214c2d5463450cccb47a790228722207",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054118,
+          "stop" : 1708440054118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "214c2d5463450cccb47a790228722207"
+    }, {
+      "name" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 311 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140004141c8?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000493960, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x14000315180?, 0x14000482a20?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x14000493960?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000493880, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140004829a8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000493880})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x1400049eb40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x14000261638?, {0x102b7c9e0, 0x1400049eb40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x140003284e8?, 0x140004e3d58?}, {0x102a59fe6, 0x4}, {0x14000257080, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x140003284e8?, 0x10?}, {0x14000257080?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x1400049eb40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140002fd380)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140002fd380, 0x14000420aa0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 16\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+      "children" : [ {
+        "name" : "This test panicked with inner steps",
+        "uid" : "a07b95543ec68322",
+        "parentUid" : "4214e3f8afcee426a2d6b973e7f17dd7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054119,
+          "stop" : 1708440054119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4214e3f8afcee426a2d6b973e7f17dd7"
+    }, {
+      "name" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+      "children" : [ {
+        "name" : "This test panicked with inner steps",
+        "uid" : "e79b34544560c83",
+        "parentUid" : "58e41c63cabcef8fc67568fd2d04abc9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58e41c63cabcef8fc67568fd2d04abc9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

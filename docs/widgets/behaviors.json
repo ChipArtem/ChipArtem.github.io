@@ -1,0 +1,26 @@
+{
+  "total" : 22,
+  "items" : [ {
+    "uid" : "8adf7f732fd7a74b1367c18013d5573c",
+    "name" : "Parametrized",
+    "statistic" : {
+      "failed" : 22,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 40
+    }
+  }, {
+    "uid" : "404aee0a7665e1cc0b18c1ee960111d1",
+    "name" : "Demo",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

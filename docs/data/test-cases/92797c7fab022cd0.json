@@ -1,0 +1,273 @@
+{
+  "uid" : "92797c7fab022cd0",
+  "name" : "Test with Before/After Attachments",
+  "fullName" : "TestAttachments/AttachmentDemoSuite/TestAttachment_1",
+  "historyId" : "719d78ce42fb2366dfc62b9e730e8559",
+  "time" : {
+    "start" : 1708440054117,
+    "stop" : 1708440054117,
+    "duration" : 0
+  },
+  "description" : "\n\t\tTest \"Set up\", Test \"Tear down\", suite \"Set up\", suite \"Tear down\" \n\t\tand all steps inside can contain attachments",
+  "descriptionHtml" : "<pre><code>\tTest &quot;Set up&quot;, Test &quot;Tear down&quot;, suite &quot;Set up&quot;, suite &quot;Tear down&quot; \n\tand all steps inside can contain attachments\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Attachment Text Attachment for Before Test",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9a21a0da7383a76",
+      "name" : "Text Attachment for Before Test",
+      "source" : "f9a21a0da7383a76.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ {
+      "name" : "name",
+      "value" : "Text Attachment for Before Test"
+    }, {
+      "name" : "type",
+      "value" : "text/plain"
+    }, {
+      "name" : "source",
+      "value" : "0cf656c4-cffe-11ee-9e10-1e00ea028f24-attachment.txt"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "Before Test Step",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd691abcbf2f87ef",
+      "name" : "Json Attachment for Before Test Step",
+      "source" : "bd691abcbf2f87ef.json",
+      "type" : "application/json",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "Attachment Text Attachment for Before suite",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "121f7c8b584bacb9",
+      "name" : "Text Attachment for Before suite",
+      "source" : "121f7c8b584bacb9.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ {
+      "name" : "name",
+      "value" : "Text Attachment for Before suite"
+    }, {
+      "name" : "type",
+      "value" : "text/plain"
+    }, {
+      "name" : "source",
+      "value" : "0cf65598-cffe-11ee-9e10-1e00ea028f24-attachment.txt"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "Before suite Step",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "324cc9955746c194",
+      "name" : "Json Attachment for Before suite Step",
+      "source" : "324cc9955746c194.json",
+      "type" : "application/json",
+      "size" : 44
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "Attachment Text Attachment for After Test",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9148108510f9787",
+      "name" : "Text Attachment for After Test",
+      "source" : "c9148108510f9787.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ {
+      "name" : "name",
+      "value" : "Text Attachment for After Test"
+    }, {
+      "name" : "type",
+      "value" : "text/plain"
+    }, {
+      "name" : "source",
+      "value" : "0cf6584a-cffe-11ee-9e10-1e00ea028f24-attachment.txt"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "After Test Step",
+    "time" : {
+      "start" : 1708440054117,
+      "stop" : 1708440054117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63bca2ea2538560f",
+      "name" : "Json Attachment for After Test Step",
+      "source" : "63bca2ea2538560f.json",
+      "type" : "application/json",
+      "size" : 44
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "Attachment Text Attachment for After suite",
+    "time" : {
+      "start" : 1708440054118,
+      "stop" : 1708440054118,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c19865989153c1c",
+      "name" : "Text Attachment for After suite",
+      "source" : "4c19865989153c1c.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ {
+      "name" : "name",
+      "value" : "Text Attachment for After suite"
+    }, {
+      "name" : "type",
+      "value" : "text/plain"
+    }, {
+      "name" : "source",
+      "value" : "0cf67d70-cffe-11ee-9e10-1e00ea028f24-attachment.txt"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "After suite Step",
+    "time" : {
+      "start" : 1708440054118,
+      "stop" : 1708440054118,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "324dcc3dee404d29",
+      "name" : "Json Attachment for After suite Step",
+      "source" : "324dcc3dee404d29.json",
+      "type" : "application/json",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestAttachments/AttachmentDemoSuite/TestAttachment_1"
+  }, {
+    "name" : "suite",
+    "value" : "AttachmentDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Attachments"
+  }, {
+    "name" : "tag",
+    "value" : "Attachments"
+  }, {
+    "name" : "tag",
+    "value" : "BeforeAfter"
+  }, {
+    "name" : "tag",
+    "value" : "Steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Steps", "BeforeAfter", "Attachments" ]
+  },
+  "source" : "92797c7fab022cd0.json",
+  "parameterValues" : [ ]
+}

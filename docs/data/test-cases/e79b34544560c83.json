@@ -1,0 +1,149 @@
+{
+  "uid" : "e79b34544560c83",
+  "name" : "This test panicked with inner steps",
+  "fullName" : "TestRunDemo/TestRunningDemoSuite/Tests/TestFails/FailsDemoSuite/TestPanicInnerSteps",
+  "historyId" : "51acc6da355dc22104eb18d72f3f3f9f",
+  "time" : {
+    "start" : 1708440054120,
+    "stop" : 1708440054120,
+    "duration" : 0
+  },
+  "description" : "\n\t\tThis Test will Failed by panic.\n\t\tAll steps that includes error will be failed\n\t\tError text:\n\ttest panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:...",
+  "descriptionHtml" : "<pre><code>\tThis Test will Failed by panic.\n\tAll steps that includes error will be failed\n\tError text:\ntest panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:...\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+  "statusTrace" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n\ntest panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\t\tThis Test will Failed by panic.\n\t\tAll steps that includes error will be failed\n\t\tError text:\n\ttest panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:...",
+    "status" : "broken",
+    "statusMessage" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+    "statusTrace" : "test panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n\ntest panicked: runtime error: index out of range [0] with length 0\ngoroutine 327 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x64\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep.func1()\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:161 +0xa4\npanic({0x102b53d00?, 0x140002942d0?})\n\t/usr/local/go/src/runtime/panic.go:770 +0x124\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2.1({0x102d76cd0?, 0x102b66900?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:103 +0x24\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x140003428c0, {0x102a5c169?, 0x102b5b160?}, 0x102b734e8, {0x0?, 0x1400012a3c0?, 0x140002a4f18?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1.2({0x149ab52f0?, 0x140003428c0?})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:101 +0x4c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*stepCtx).WithNewStep(0x14000342700, {0x102a5b4e5?, 0x102b5b160?}, 0x102b734e0, {0x0?, 0x102a3d604?, 0x140002a4eb8?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/step_context.go:166 +0xf8\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps.func1({0x149ab52f0, 0x14000342700})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:100 +0x7c\ngithub.com/ozontech/allure-go/pkg/framework/core/common.(*Common).WithNewStep(0x140001aba40, {0x102a5a94b?, 0x7?}, 0x102b734d0, {0x0?, 0x0?, 0x0?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/core/common/steps.go:27 +0x148\ngithub.com/ChipArtem/forallure/tests_test.(*FailsDemoSuite).TestPanicInnerSteps(0x1400020f638?, {0x102b7c9e0, 0x140001aba40})\n\t/Users/artembychkov/Desktop/git_repo/allure-report-action/tests/fails_test.go:96 +0x150\nreflect.Value.call({0x1400031c000?, 0x14000058548?, 0x140002c0d58?}, {0x102a59fe6, 0x4}, {0x1400010ed80, 0x2, 0x1027c8f4c?})\n\t/usr/local/go/src/reflect/value.go:596 +0x980\nreflect.Value.Call({0x1400031c000?, 0x14000058548?, 0x10?}, {0x1400010ed80?, 0x102b72cc0?, 0x0?})\n\t/usr/local/go/src/reflect/value.go:380 +0x94\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*testMethod).GetBody.func1({0x102b7c9e0?, 0x140001aba40?})\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/tests.go:155 +0x228\ngithub.com/ozontech/allure-go/pkg/framework/runner.(*runner).RunTests.func1.3.1(0x140000c4340)\n\t/Users/artembychkov/go/pkg/mod/github.com/ozontech/allure-go/pkg/framework@v0.6.29/runner/runner.go:205 +0x330\ntesting.tRunner(0x140000c4340, 0x14000180dc0)\n\t/usr/local/go/src/testing/testing.go:1689 +0xec\ncreated by testing.(*T).Run in goroutine 275\n\t/usr/local/go/src/testing/testing.go:1742 +0x318\n",
+    "steps" : [ {
+      "name" : "Check 1",
+      "time" : {
+        "start" : 1708440054120,
+        "stop" : 1708440054120,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ {
+        "name" : "Check 1.1",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Check 1.2",
+        "time" : {
+          "start" : 1708440054120,
+          "stop" : 1708440054120,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "steps" : [ {
+          "name" : "Check 1.2.1",
+          "time" : {
+            "start" : 1708440054120,
+            "stop" : 1708440054120,
+            "duration" : 0
+          },
+          "status" : "broken",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestRunDemo/TestRunningDemoSuite/Tests/TestFails/FailsDemoSuite/TestPanicInnerSteps"
+  }, {
+    "name" : "suite",
+    "value" : "FailsDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test.(*TestRunningDemoSuite)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestRunningDemoSuite"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Failures"
+  }, {
+    "name" : "tag",
+    "value" : "fail"
+  }, {
+    "name" : "tag",
+    "value" : "panic"
+  }, {
+    "name" : "tag",
+    "value" : "nesting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "fail", "nesting", "panic" ]
+  },
+  "source" : "e79b34544560c83.json",
+  "parameterValues" : [ ]
+}

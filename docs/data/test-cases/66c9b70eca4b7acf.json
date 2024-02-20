@@ -1,0 +1,124 @@
+{
+  "uid" : "66c9b70eca4b7acf",
+  "name" : "Add parameters to Nested Steps",
+  "fullName" : "TestParameters/ParametersDemoSuite/TestAddParameterToNestedStep",
+  "historyId" : "f8bc69a60d53c91d69181406b657f9ce",
+  "time" : {
+    "start" : 1708440054116,
+    "stop" : 1708440054116,
+    "duration" : 0
+  },
+  "description" : "\n\t\tStep A is parent step for Step B\n\t\tStep A contains Param 1 and Param 4\n\t\tStep B contains Param 2 and Param 3",
+  "descriptionHtml" : "<pre><code>\tStep A is parent step for Step B\n\tStep A contains Param 1 and Param 4\n\tStep B contains Param 2 and Param 3\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\t\tStep A is parent step for Step B\n\t\tStep A contains Param 1 and Param 4\n\t\tStep B contains Param 2 and Param 3",
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "Step A",
+      "time" : {
+        "start" : 1708440054116,
+        "stop" : 1708440054116,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step B",
+        "time" : {
+          "start" : 1708440054116,
+          "stop" : 1708440054116,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Param 2",
+          "value" : "Value 2"
+        }, {
+          "name" : "Param 3",
+          "value" : "Value 3"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Param 1",
+        "value" : "Value 1"
+      }, {
+        "name" : "Param 4",
+        "value" : "Value 3"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestParameters/ParametersDemoSuite/TestAddParameterToNestedStep"
+  }, {
+    "name" : "suite",
+    "value" : "ParametersDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Parameters"
+  }, {
+    "name" : "tag",
+    "value" : "Steps"
+  }, {
+    "name" : "tag",
+    "value" : "Nesting"
+  }, {
+    "name" : "tag",
+    "value" : "Parameters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Steps", "Nesting", "Parameters" ]
+  },
+  "source" : "66c9b70eca4b7acf.json",
+  "parameterValues" : [ ]
+}

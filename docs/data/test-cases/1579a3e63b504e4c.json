@@ -1,0 +1,82 @@
+{
+  "uid" : "1579a3e63b504e4c",
+  "name" : "Cities_Ventura",
+  "fullName" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Ventura",
+  "historyId" : "eb9e540506cc0059f53ecb44d559f1a4",
+  "time" : {
+    "start" : 1708440054109,
+    "stop" : 1708440054110,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "REQUIRE: Not Empty",
+      "time" : {
+        "start" : 1708440054110,
+        "stop" : 1708440054110,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Object",
+        "value" : "string(\"Ventura\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Ventura"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1579a3e63b504e4c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,214 @@
+{
+  "uid" : "77ce42be072818f4",
+  "name" : "Complex Nesting",
+  "fullName" : "TestStepTree/StepTreeDemoSuite/TestComplexStepTree",
+  "historyId" : "138fbf904e3043416223db9f4bde05b6",
+  "time" : {
+    "start" : 1708440054117,
+    "stop" : 1708440054117,
+    "duration" : 0
+  },
+  "description" : "\n\t\tStep A is parent for Step B, Step C and Step F\n\t\tStep C is parent for Step D and Step E\n\t\tStep F is parent for Step G and Step H\n\t\tCall order will be saved in allure report\n\t\tA -> (B, C -> (D, E), F -> (G, H), I)",
+  "descriptionHtml" : "<pre><code>\tStep A is parent for Step B, Step C and Step F\n\tStep C is parent for Step D and Step E\n\tStep F is parent for Step G and Step H\n\tCall order will be saved in allure report\n\tA -&gt; (B, C -&gt; (D, E), F -&gt; (G, H), I)\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\t\tStep A is parent for Step B, Step C and Step F\n\t\tStep C is parent for Step D and Step E\n\t\tStep F is parent for Step G and Step H\n\t\tCall order will be saved in allure report\n\t\tA -> (B, C -> (D, E), F -> (G, H), I)",
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "Step A",
+      "time" : {
+        "start" : 1708440054117,
+        "stop" : 1708440054117,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step B",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Step C",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Step D",
+          "time" : {
+            "start" : 1708440054117,
+            "stop" : 1708440054117,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Step E",
+          "time" : {
+            "start" : 1708440054117,
+            "stop" : 1708440054117,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step F",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Step G",
+          "time" : {
+            "start" : 1708440054117,
+            "stop" : 1708440054117,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Step H",
+          "time" : {
+            "start" : 1708440054117,
+            "stop" : 1708440054117,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step I",
+        "time" : {
+          "start" : 1708440054117,
+          "stop" : 1708440054117,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestStepTree/StepTreeDemoSuite/TestComplexStepTree"
+  }, {
+    "name" : "suite",
+    "value" : "StepTreeDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Inner Steps"
+  }, {
+    "name" : "tag",
+    "value" : "Steps"
+  }, {
+    "name" : "tag",
+    "value" : "Nesting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Steps", "Nesting" ]
+  },
+  "source" : "77ce42be072818f4.json",
+  "parameterValues" : [ ]
+}

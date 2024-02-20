@@ -1,0 +1,82 @@
+{
+  "uid" : "f024bea3e7e4f390",
+  "name" : "Cities_Hillsborough",
+  "fullName" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Hillsborough",
+  "historyId" : "8494587686473d743c6852b66bf812c7",
+  "time" : {
+    "start" : 1708440054109,
+    "stop" : 1708440054110,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "REQUIRE: Not Empty",
+      "time" : {
+        "start" : 1708440054110,
+        "stop" : 1708440054110,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Object",
+        "value" : "string(\"Hillsborough\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Hillsborough"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f024bea3e7e4f390.json",
+  "parameterValues" : [ ]
+}

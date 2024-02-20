@@ -1,0 +1,343 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Wasco",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","LabelsDemoSuite","","","","Labels Demo Example 4","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example4""
+			Severity = ""minor""
+			Unique tag = ""Example4"""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Sweden#1991","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Sweden#1991"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#3","This test checks that 1 Equal 3"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","LabelsDemoSuite","","","","Labels Demo Example 4","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example4""
+			Severity = ""minor""
+			Unique tag = ""Example4"""
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails immediately with broken status and message inside step","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"skipped","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","[XSkip]This test skipped by assert with message","
+		This Test will be skipped with assert Error.
+		Error text: Assertion Failed"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #4","This test checks that 1 Equal 4"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails immediately with broken status and message inside step","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #1","This test checks that 1 Equal 1"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","","ParametrizedSuite","","","","Cities_Hillsborough",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","","SetupSuite","","","","TableTest With Setup - Bermuda#1992","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Bermuda#1992"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Yountville",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Canada#1979","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Canada#1979"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test panicked with inner steps","
+		This Test will Failed by panic.
+		All steps that includes error will be failed
+		Error text:
+	test panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:..."
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #4","This test checks that 1 Equal 4"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Imperial Beach",""
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #0","This test checks that 1 Equal 0"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","StepDemoSuite","","","","Base. Add steps to allure result","
+		Step A, Step B and Step C will be add to Allure Result"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test failed by assert with inner step","
+		This Test will be failed with assert Error.
+		Error text:
+					Not equal:
+					expected: 1
+					actual  : 2"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test failed by assert with message","
+		This Test will be failed with assert Error.
+		Error text: Assertion Failed"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#2","This test checks that 1 Equal 2"
+"skipped","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SkipDemoSuite","","","","Skip test","
+		This test will be skipped"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #8","This test checks that 1 Equal 8"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test panicked","
+		This Test will Failed by panic.
+		Error text:
+	test panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:..."
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#5","This test checks that 1 Equal 5"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #6","This test checks that 1 Equal 6"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","","FailsDemoSuite","","","","This test failed by assert with message","
+		This Test will be failed with assert Error.
+		Error text: Assertion Failed"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #0","This test checks that 1 Equal 0"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test failed by assert with inner step","
+		This Test will be failed with assert Error.
+		Error text:
+					Not equal:
+					expected: 1
+					actual  : 2"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test panicked","
+		This Test will Failed by panic.
+		Error text:
+	test panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:..."
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #9","This test checks that 1 Equal 9"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #7","This test checks that 1 Equal 7"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test failed by assert without message","
+		This Test will be failed with assert Error.
+		Error text:
+					Not equal:
+					expected: 1
+					actual  : 2"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails with broken status","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","NestedAttachmentDemoSuite","","","","Test NestedAttachments","
+		Test ""Set up"", Test ""Tear down"", suite ""Set up"", suite ""Tear down"" test body has step with attachmentt."
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#8","This test checks that 1 Equal 8"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Shafter",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Mexico#1949","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Mexico#1949"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","LabelsDemoSuite","","","","Labels Demo Example 5","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example5""
+			Severity = ""trivial""
+			Unique tag = ""Example5"""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Somalia#1986","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Somalia#1986"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #2","This test checks that 1 Equal 2"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Burundi#2000","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Burundi#2000"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","AttachmentDemoSuite","","","","Test with Before/After Attachments","
+		Test ""Set up"", Test ""Tear down"", suite ""Set up"", suite ""Tear down"" 
+		and all steps inside can contain attachments"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","BeforeAfterDemoSuite","","","","Test wrapped with SetUp & TearDown","
+		This test wrapped with SetUp and TearDown container."
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Brunei Darussalam#1906","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Brunei Darussalam#1906"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","StepDemoSuite","","","","Add child steps to existed step.","
+		Step A is parent step for Step B and Step C
+		Step D is parent step for Step E and Step F
+		Call order will be saved in allure report
+		A -> (B, C), D -> (E, F)"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","LabelsDemoSuite","","","","Labels Demo Example 5","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example5""
+			Severity = ""trivial""
+			Unique tag = ""Example5"""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Nicaragua#1921","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Nicaragua#1921"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Healdsburg",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#9","This test checks that 1 Equal 9"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #9","This test checks that 1 Equal 9"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #5","This test checks that 1 Equal 5"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Australia#1994","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Australia#1994"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#6","This test checks that 1 Equal 6"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails immediately with broken status","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:55 MSK 2024","1006","","StepDemoSuite","","","","Base. Add steps to allure result","
+		Step A, Step B, Step C and Step D will be add to Allure Result"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Piedmont",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#9","This test checks that 1 Equal 9"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Lomita",""
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails immediately with broken status inside step","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#2","This test checks that 1 Equal 2"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails immediately with broken status","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#3","This test checks that 1 Equal 3"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","StepTreeDemoSuite","","","","Complex Nesting","
+		Step A is parent for Step B, Step C and Step F
+		Step C is parent for Step D and Step E
+		Step F is parent for Step G and Step H
+		Call order will be saved in allure report
+		A -> (B, C -> (D, E), F -> (G, H), I)"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #8","This test checks that 1 Equal 8"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#0","This test checks that 1 Equal 0"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","AttachmentTestDemoSuite","","","","Test Attachments","
+		Test's test body and all steps inside can contain attachments"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#1","This test checks that 1 Equal 1"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails with broken status","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Paramount",""
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails immediately with broken status and message","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #2","This test checks that 1 Equal 2"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails immediately with broken status and message","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","BeforeAfterDemoSuite","","","","Test wrapped with SetUp & TearDown","
+		This test wrapped with SetUp and TearDown container."
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametersDemoSuite","","","","Add Parameters to step","
+		Step A will contain following parameters:
+			Param1 = Val1
+			Param2 = Val2
+			Param3 = Val3
+			Param4 = Val4
+			Param5 = Val5
+			Param6 = Val6
+			Param7 = Val7"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","LabelsDemoSuite","SomeSubSuite","","","Labels Demo Example 3","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example3""
+			Severity = ""normal""
+			Unique tag = ""Example3""
+		Also this test has additional ""subSuite"" label"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#7","This test checks that 1 Equal 7"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Tehama",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","","ParametrizedSuite","","","","Cities_Ventura",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#7","This test checks that 1 Equal 7"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #3","This test checks that 1 Equal 3"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Sunnyvale",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","TableTest With Setup - Vietnam#1966","
+		Test will unpack all data from passed parameter to the variables in WithTestSetup func.
+		After test finish, it will do ctx.Done() in TestTearDown.
+		All Setup and TearDown tests will be add as Befores and Afters to test's container.
+		Used Data: Vietnam#1966"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails with broken status inside step","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Gustine",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#8","This test checks that 1 Equal 8"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","LabelsDemoSuite","SomeSubSuite","","","Labels Demo Example 3","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example3""
+			Severity = ""normal""
+			Unique tag = ""Example3""
+		Also this test has additional ""subSuite"" label"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","AnotherParentSuite","LabelsDemoSuite","","","","Labels Demo Example 2","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example2""
+			Severity = ""critical""
+			Unique tag = ""Example2""
+		Also this test has additional ""parentSuite"" label"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","LinkDemoSuite","","","","Test contains links","
+		This test contains link with ISSUE, TEST CASE and LINK.
+			Test case link: https://tour.golang.org/welcome/1
+			Issue link:     https://pkg.go.dev/github.com/stretchr/testify
+			Link link:      https://www.makeuseof.com/tag/8-purrfect-cat-websites/"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test failed by assert without message","
+		This Test will be failed with assert Error.
+		Error text:
+					Not equal:
+					expected: 1
+					actual  : 2"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametersDemoSuite","","","","Add parameters to Nested Steps","
+		Step A is parent step for Step B
+		Step A contains Param 1 and Param 4
+		Step B contains Param 2 and Param 3"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#6","This test checks that 1 Equal 6"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Cupertino",""
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails immediately with broken status inside step","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","AnotherParentSuite","LabelsDemoSuite","","","","Labels Demo Example 2","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example2""
+			Severity = ""critical""
+			Unique tag = ""Example2""
+		Also this test has additional ""parentSuite"" label"
+"skipped","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","[XSkip]This test skipped by assert with message","
+		This Test will be skipped with assert Error.
+		Error text: Assertion Failed"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","AnotherSuite","","","","Labels Demo Example 1","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example1""
+			Severity = ""blocker""
+			Unique tag = ""Example1""
+		Also this test has additional ""suite"" label"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#5","This test checks that 1 Equal 5"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","AnotherSuite","","","","Labels Demo Example 1","
+		This Test will have all labels from SetupTest function
+		Unique labels:
+			ID = ""example1""
+			Severity = ""blocker""
+			Unique tag = ""Example1""
+		Also this test has additional ""suite"" label"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","StepTreeDemoSuite","","","","Simple Nesting","
+		Step A is parent step for Step B and Step C
+		Call order will be saved in allure report
+		A -> (B, C)"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #6","This test checks that 1 Equal 6"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_San Marino",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","2","","ParametrizedTestDemo2","","","","Parent Test","
+		This test is parent for all Parametrized"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails immediately with broken status and message inside inner step","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test panicked with inner steps","
+		This Test will Failed by panic.
+		All steps that includes error will be failed
+		Error text:
+	test panicked: runtime error: index out of range [0] with length 0 goroutine 8 [running]:..."
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_San Carlos",""
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #3","This test checks that 1 Equal 3"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","FailsDemoSuite","","","","This test fails with broken status inside step","
+		This Test will Failed as Fail().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","FailsDemoSuite","","","","This test fails immediately with broken status and message inside inner step","
+		This Test will Failed as FailNow().
+		Test status will be ""Broken"" in allure.
+		No any message expected there"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized #7","This test checks that 1 Equal 7"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","SetupSuite","","","","Just Test WithSetup","
+		Test will prepare some data at TestSetup."
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #5","This test checks that 1 Equal 5"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_Cerritos",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedTestDemo","","","","Parent Test","
+		This test is parent for all Parametrized"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#4","This test checks that 1 Equal 4"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Shasta Lake",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized #1","This test checks that 1 Equal 1"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","1","ParametrizedTestDemo","Parent Test","","","","Parametrized 2#1","This test checks that 1 Equal 1"
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","","ParametrizedSuite","","","","Cities_Watsonville",""
+"passed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","TestRunningDemoSuite","ParametrizedSuite","","","","Cities_South Lake Tahoe",""
+"broken","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#4","This test checks that 1 Equal 4"
+"failed","Tue Feb 20 17:40:54 MSK 2024","Tue Feb 20 17:40:54 MSK 2024","0","ParametrizedTestDemo2","Parent Test","","","","Parametrized 2#0","This test checks that 1 Equal 0"

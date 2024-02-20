@@ -1,0 +1,85 @@
+{
+  "uid" : "173cf1178c93956f",
+  "name" : "Cities_Healdsburg",
+  "fullName" : "TestRunDemo/TestRunningDemoSuite/Tests/TestParametrized/ParametrizedSuite/TableTestCities/Cities_Healdsburg",
+  "historyId" : "989af824a7ac4624de6c1060bfc56357",
+  "time" : {
+    "start" : 1708440054117,
+    "stop" : 1708440054117,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "REQUIRE: Not Empty",
+      "time" : {
+        "start" : 1708440054117,
+        "stop" : 1708440054117,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Object",
+        "value" : "string(\"Healdsburg\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestRunDemo/TestRunningDemoSuite/Tests/TestParametrized/ParametrizedSuite/TableTestCities/Cities_Healdsburg"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test.(*TestRunningDemoSuite)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestRunningDemoSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "173cf1178c93956f.json",
+  "parameterValues" : [ ]
+}

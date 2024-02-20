@@ -1,0 +1,103 @@
+{
+  "uid" : "443248f588ce6900",
+  "name" : "[XSkip]This test skipped by assert with message",
+  "fullName" : "TestFails/FailsDemoSuite/TestXSkipFail",
+  "historyId" : "c9c8afd21a68411aa7a739ca88e4e1b5",
+  "time" : {
+    "start" : 1708440054120,
+    "stop" : 1708440054120,
+    "duration" : 0
+  },
+  "description" : "\n\t\tThis Test will be skipped with assert Error.\n\t\tError text: Assertion Failed",
+  "descriptionHtml" : "<pre><code>\tThis Test will be skipped with assert Error.\n\tError text: Assertion Failed\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t       ",
+  "statusTrace" : "\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t            \t\t\t\thelper.go:32\n\t            \t\t\t\tfails_test.go:37\n\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 2\n\tTest:       \tThis test skipped by assert with message\n\tMessages:   \tAssertion Failed\n\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\t\tThis Test will be skipped with assert Error.\n\t\tError text: Assertion Failed",
+    "status" : "skipped",
+    "statusMessage" : "\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t       ",
+    "statusTrace" : "\n\tError Trace:\twrapper.go:105\n\t            \t\t\t\thelper.go:37\n\t            \t\t\t\twrapper.go:101\n\t            \t\t\t\thelper.go:32\n\t            \t\t\t\tfails_test.go:37\n\tError:      \tNot equal: \n\t            \texpected: 1\n\t            \tactual  : 2\n\tTest:       \tThis test skipped by assert with message\n\tMessages:   \tAssertion Failed\n\n",
+    "steps" : [ {
+      "name" : "REQUIRE: Assertion Failed",
+      "time" : {
+        "start" : 1708440054120,
+        "stop" : 1708440054120,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Expected",
+        "value" : "1"
+      }, {
+        "name" : "Actual",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestFails/FailsDemoSuite/TestXSkipFail"
+  }, {
+    "name" : "suite",
+    "value" : "FailsDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Failures"
+  }, {
+    "name" : "tag",
+    "value" : "fail"
+  }, {
+    "name" : "tag",
+    "value" : "xskip"
+  }, {
+    "name" : "tag",
+    "value" : "assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "fail", "xskip", "assertions" ]
+  },
+  "source" : "443248f588ce6900.json",
+  "parameterValues" : [ ]
+}

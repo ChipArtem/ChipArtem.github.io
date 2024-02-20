@@ -1,0 +1,85 @@
+{
+  "uid" : "1ab66c10fe51f7f1",
+  "name" : "Labels Demo Example 2",
+  "fullName" : "TestLabels/LabelsDemoSuite/TestLabelsExample2",
+  "historyId" : "90fa3268050686024a4d5f89c8620664",
+  "time" : {
+    "start" : 1708440054116,
+    "stop" : 1708440054116,
+    "duration" : 0
+  },
+  "description" : "\n\t\tThis Test will have all labels from SetupTest function\n\t\tUnique labels:\n\t\t\tID = \"example2\"\n\t\t\tSeverity = \"critical\"\n\t\t\tUnique tag = \"Example2\"\n\t\tAlso this test has additional \"parentSuite\" label",
+  "descriptionHtml" : "<pre><code>\tThis Test will have all labels from SetupTest function\n\tUnique labels:\n\t\tID = &quot;example2&quot;\n\t\tSeverity = &quot;critical&quot;\n\t\tUnique tag = &quot;Example2&quot;\n\tAlso this test has additional &quot;parentSuite&quot; label\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestLabels/LabelsDemoSuite/TestLabelsExample2"
+  }, {
+    "name" : "suite",
+    "value" : "LabelsDemoSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Story Label"
+  }, {
+    "name" : "owner",
+    "value" : "John Doe"
+  }, {
+    "name" : "lead",
+    "value" : "John Doe's Boss"
+  }, {
+    "name" : "tag",
+    "value" : "EachTestTag"
+  }, {
+    "name" : "as_id",
+    "value" : "example2"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AnotherParentSuite"
+  }, {
+    "name" : "tag",
+    "value" : "Example2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "John Doe",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "EachTestTag", "Example2" ]
+  },
+  "source" : "1ab66c10fe51f7f1.json",
+  "parameterValues" : [ ]
+}

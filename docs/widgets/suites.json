@@ -1,0 +1,114 @@
+{
+  "total" : 18,
+  "items" : [ {
+    "uid" : "11220cc2928229e9a2422314629be14d",
+    "name" : "ParametrizedTestDemo2",
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 21
+    }
+  }, {
+    "uid" : "9508649555566739e13c04031728c425",
+    "name" : "ParametrizedTestDemo",
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 21
+    }
+  }, {
+    "uid" : "b9a28d816d382b2d382c6cba5cfc5391",
+    "name" : "TestRunningDemoSuite",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 9,
+      "skipped" : 1,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 30
+    }
+  }, {
+    "uid" : "b52f8dcf30b4b3d3d17cbe0afc5a13fd",
+    "name" : "FailsDemoSuite",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 9,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "cf97a08b2979ae0f14a3e643a34d8f1d",
+    "name" : "SetupSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "a30c11cb56e25ca8911418ff01900fe4",
+    "name" : "ParametrizedSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "b353dc8fce3071d1ef811ee62ead551a",
+    "name" : "LabelsDemoSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "179bcdab00e5b7346371f39500fb6a80",
+    "name" : "StepDemoSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ee9e08ffe32fba65d2cd7e755e4871fb",
+    "name" : "ParametersDemoSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d292fec7a9143e743be946d0f5b11011",
+    "name" : "AnotherParentSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

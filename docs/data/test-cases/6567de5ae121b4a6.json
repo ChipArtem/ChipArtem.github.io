@@ -1,0 +1,82 @@
+{
+  "uid" : "6567de5ae121b4a6",
+  "name" : "Cities_Sunnyvale",
+  "fullName" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Sunnyvale",
+  "historyId" : "4cd34647fb6c61a4909fabc7f81f097d",
+  "time" : {
+    "start" : 1708440054109,
+    "stop" : 1708440054109,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "REQUIRE: Not Empty",
+      "time" : {
+        "start" : 1708440054109,
+        "stop" : 1708440054109,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Object",
+        "value" : "string(\"Sunnyvale\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestNewParametrizedDemo/ParametrizedSuite/TableTestCities/Cities_Sunnyvale"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedSuite"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6567de5ae121b4a6.json",
+  "parameterValues" : [ ]
+}

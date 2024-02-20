@@ -1,0 +1,60 @@
+{
+  "uid" : "e78559011277353b",
+  "name" : "Parent Test",
+  "fullName" : "TestParametrizedDemo2/ParametrizedTestDemo2/TestParameterized2",
+  "historyId" : "95ce22073e1f64c430cb804611be3f6c",
+  "time" : {
+    "start" : 1708440054112,
+    "stop" : 1708440054114,
+    "duration" : 2
+  },
+  "description" : "\n\t\tThis test is parent for all Parametrized",
+  "descriptionHtml" : "<pre><code>\tThis test is parent for all Parametrized\n</code></pre>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "go1.22.0"
+  }, {
+    "name" : "framework",
+    "value" : "Allure-Go@v0.6.0"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Artem.local"
+  }, {
+    "name" : "thread",
+    "value" : "TestParametrizedDemo2/ParametrizedTestDemo2/TestParameterized2"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedTestDemo2"
+  }, {
+    "name" : "package",
+    "value" : "github.com/ChipArtem/forallure/tests_test"
+  }, {
+    "name" : "epic",
+    "value" : "Demo"
+  }, {
+    "name" : "feature",
+    "value" : "Parametrized"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e78559011277353b.json",
+  "parameterValues" : [ ]
+}
